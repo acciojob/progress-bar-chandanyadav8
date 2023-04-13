@@ -8,9 +8,40 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+		<div class="circles">
+			<div id="circle1" class="circle">1</div>
+			<div class="line"></div>
+			<div id="circle2" class="circle">2</div>
+			<div class="line"></div>
+			<div id="circle3" class="circle">3</div>
+			<div class="line"></div>
+			<div id="circle4" class="circle">4</div>
+			<div class="line"></div>
+			<div id="circle5" class="circle">5</div>
+
+		</div>
+		<div class="buttons">
+			<button id="prev" disabled onclick="prev()">Prev</button>
+			<button id="next" onclick="next()">Next</button>
+		</div>
+	</div>
+	
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
 
 </html>
+<!-- The webpage should include 5 circles with class .circle and two buttons next with id next and previous with id prev.
+Initially only first circle should have active class.
+As the user presses the next button an active class is added to the next circle.
+As the user presses the previous button an active class is removed from the current circle.
+Initially the previous button should be disabled.
+When all the circles become active then next button becomes disabled.
+The progress bar should look like this:
+
+image  -->
+
+<!-- -Ids for every circle will be circle-1, circle-2, circle-3... and so on.
